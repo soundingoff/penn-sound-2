@@ -1,0 +1,9 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://example.com/collection.json",
+    "type": "Collection",
+    "label": { "en": [ "Penn Sound 2" ] },
+    "summary": { "en": [ "Kylie (P1) and Bethany (P2) testing forked collaborations with Penn Sound audio." ] },
+    "items": [
+    ]
+}
