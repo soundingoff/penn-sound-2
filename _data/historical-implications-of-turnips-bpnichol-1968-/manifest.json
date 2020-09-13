@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://kywark.github.io/penn-sound-2/historical-implications-of-turnips-bpnichol-1968-/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Historical Implications of Turnips (bpNichol, 1968) " ] },
+    "homepage": [
+      {
+        "id": "https://writing.upenn.edu/pennsound/x/Nichol.php",
+        "type": "Text",
+        "label": { "en": [ "Home page for Historical Implications of Turnips (bpNichol, 1968) " ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://www.upenn.edu/",
+        "type": "Agent",
+        "label": { "en": [ "University of Pennsylvania" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://kywark.github.io/penn-sound-2/historical-implications-of-turnips-bpnichol-1968-/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 30,
+        "items": [
+          {
+            "id": "https://kywark.github.io/penn-sound-2/historical-implications-of-turnips-bpnichol-1968-/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://kywark.github.io/penn-sound-2/historical-implications-of-turnips-bpnichol-1968-/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "http://media.sas.upenn.edu/pennsound/authors/bpNichol/Motherlove/bpNichol_05_Historical-Implications-of-Turnips_Motherlove_1968.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                  "duration": 30
+                },
+                "target": "https://kywark.github.io/penn-sound-2/historical-implications-of-turnips-bpnichol-1968-/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
